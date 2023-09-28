@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    font-family: monospace;
+    background-color: rgba(190, 149, 228, 0.445);
+}
+#table{
+    background:  rgba(190, 149, 228, 0.445);
+    text-align: center;
+}
+.titulos{
+    background-color: rgba(190, 149, 228, 0.445) ;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+/*contato*/
+.label{
+ font-size: medium;
+ font-family: monospace;
+}
+#enviar{
+    background: aquamarine;
+    color: black;
+}
+.inupt{
+    background: rgba(190, 149, 228, 0.445);
+    color: gray;
+}
+
+/*hobby*/
+.img{
+    background-color: rgba(190, 149, 228, 0.445) ;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+.nomeclaturaimg{
+    font-size: medium;
+    font-family: monospace;
+    font-weight: bold;
+}
+.input{
+    background:  rgba(190, 149, 228, 0.445);
+}

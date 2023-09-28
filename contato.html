@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maryana Raphaely Contatopage</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1><em>Página de Contato</em></h1>
+    <h1 class="titulos"><em>Página de Contato</em></h1>
 <hr>   
     <p>
        <strong>Nome</strong>:Maryana Raphaely <br>
@@ -15,38 +16,36 @@
    </p>
 <form action="mailto:maryana.r.silva@aluno.senai" method="post">
    
-  
-
 <hr>
     
-        <label for="nome"><em>Digite seu nome</em></label> <br>
-        <input type="text" name="nome" placeholder="Nome Sobrenome" required="true"><br>
+        <label class="label" for="nome"><em>Digite seu nome</em></label> <br>
+        <input type="text" name="nome" placeholder="Ex: Nome Sobrenome" required="true" class="input"><br>
 
         
-        <label for="email"><em>Digite seu E-mail</em></label><br>
-        <input type="email" id="email" placeholder="Ex: email@email.com" required><br>
+        <labe class="label"l for="email"><em>Digite seu E-mail</em></label><br>
+        <input type="email" id="email" placeholder="Ex: email@email.com" required  class="input"><br>
 
         
-        <label><em>Telefone:</em></label> <br>
-        <input type="tel" placeholder="00 0 0000-0000" required><br>
+        <label><em class="label">Digite Seu Telefone:</em></label> <br>
+        <input type="tel" placeholder="Ex: 00 0 0000-0000" required  class="input"><br>
  <br>
 <hr>
-       <h3><em>Qual seu gênero?</em>
+       <h3><em class="label">Qual seu gênero?</em>
        </h3>  
 
         <input type="radio" name="genero">
-        <label>Maculino</label> <br>
+        <label class="input">Maculino</label> <br>
         <input type="radio" name="genero">
-        <label>Feminino</label> <br>
+        <label class="input">Feminino</label> <br>
         <input type="radio" name="genero"> 
-        <label>Outro</label> <br>
+        <label class="input">Outro</label> <br>
 <hr>
 <h3><em>Tire Suas Dúvidas!</em></h3>
-        <label for="mensagem">Digite sua mensagem:</label><br>
-        <textarea cols="30" rows="10"></textarea> <br>
+        <label class="label" for="mensagem">Digite sua mensagem:</label><br>
+        <textarea cols="30" rows="10" class="input"></textarea> <br>
         
-        <input type="file"><br>
-        <input type="submit" value="Enviar"><br>
+        <input type="file" class="input"><br>
+        <input type="submit" value="Enviar" id="enviar"><br>
     </form>
         
 <hr>
