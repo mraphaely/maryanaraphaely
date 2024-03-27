@@ -1,11 +1,17 @@
 body{
     text-align: center;
     font-family: monospace;
-    background-color: rgba(190, 149, 228, 0.445);
+    background-color: rgba(190, 149, 228, 0.432);
+}
+hr{
+    background-color:black;
 }
 #table{
     background:  rgba(190, 149, 228, 0.445);
-    text-align: center;
+    margin: 0 auto;
+}
+#tableHab{
+    margin: 0 auto;
 }
 .titulos{
     background-color: rgba(190, 149, 228, 0.445) ;
